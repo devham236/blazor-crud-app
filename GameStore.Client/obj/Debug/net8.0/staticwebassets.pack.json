@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\y174325t93.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Client.styles.css",
+      "PackagePath": "staticwebassets\\GameStore.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameStore.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GameStore.Client.props",
+      "PackagePath": "build\\GameStore.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GameStore.Client.props",
+      "PackagePath": "buildMultiTargeting\\GameStore.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GameStore.Client.props",
+      "PackagePath": "buildTransitive\\GameStore.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
