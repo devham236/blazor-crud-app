@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7qX2kKfneYmkVelcn3nLpKVJ0Bf0wPPaQhfcZ3c5gO8=",
+  "Hash": "drqsmruGj4i+KG6RYkh3ocZbXeK/rjuwHMehNMCgkTM=",
   "Source": "GameStore.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7919,25 +7919,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

@@ -818,7 +818,6 @@ C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\
 C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GameStore.Client.props
 C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
-C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\scopedcss\bundle\GameStore.Client.styles.css
 C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\scopedcss\projectbundle\GameStore.Client.bundle.scp.css
 C:\Users\Mirza\Desktop\Main Projects\blazor-crud-app\GameStore.Client\obj\Debug\net8.0\compressed\y174325t93.gz

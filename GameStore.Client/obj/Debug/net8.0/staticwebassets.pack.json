@@ -37,10 +37,6 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
-    },
-    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameStore.Client.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
