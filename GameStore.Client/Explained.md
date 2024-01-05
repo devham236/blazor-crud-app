@@ -40,4 +40,4 @@ else
     </table>
 }
 ```
-In der Komponente wird überprüft ob die "games" array gleich null ist, also noch nicht vorhanden ist. Wenn "games" nicht vorhanden ist, wird ein p-tag mit einem Loading text angezeigt, wenn "games" vorhanden ist, wird eine Tabelle angezeigt in der durch die "games" array iteriert wird und für jedes "game" eine row wiedergegeben wird.
+In der Komponente wird überprüft ob die "games" array gleich null ist, also noch nicht vorhanden ist. Wenn "games" nicht vorhanden ist, wird ein p-tag mit einem Loading text angezeigt, wenn "games" vorhanden ist, wird eine Tabelle mit ein paar table heads und ein table body angezeigt in der durch die "games" array iteriert wird und für jedes "game" eine row wiedergegeben wird.
