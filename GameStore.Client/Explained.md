@@ -1,3 +1,6 @@
 # Home Component
 
-**@page "/"** = Bedeutet das diese Komponente 
+```bash
+@page "/"
+@using Models
+```
