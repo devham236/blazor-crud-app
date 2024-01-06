@@ -54,4 +54,6 @@ In der Komponente wird überprüft ob die "games" array gleich null ist, also no
 }
 ```
 Der '@code' block in einer Razor Komponente erlaubt es dir C# Code in einer Komponente einzubetten, ähnlich wie der Raum in einer React Komponente oberhalb des 'return' Blocks.
-Zunächst wird eine private Variable (man kann nur in diesem Block auf diese Variable zugreifen) namens 'games' mit dem Typ 'Game[]?' deklariert. Das bedeutet diese array kann nur objects enthalten die denen in der 'Game' class entsprechen
+Zunächst wird eine private Variable (man kann nur in diesem Block auf diese Variable zugreifen) namens 'games' mit dem Typ 'Game[]?' deklariert. Das bedeutet diese array kann nur objects enthalten die denen in der 'Game' class entsprechen. Die 'Game' class dient also als Blueprint für die einzelnen objects.
+Die 'OnInitialized' method ist ähnlich wie ein useEffect in react wenn eine Komponente mounts, wenn die Komponente initialisiert wird, wird der Block ausgeführt. Darin wird die zuvor deklarierte mit dem Rückgabewert von der 'GetGames()' function in der 'GameClient' class
+Wie bei einer React Komponente die ein State für eine leere array zunächst initialisiert und dann ein useEffect ausführt, in dem data von irgendwo extern gefetcht wird und dann mit der leeren array gleichgesetzt wird. 
