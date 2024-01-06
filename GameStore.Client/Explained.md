@@ -54,3 +54,4 @@ In der Komponente wird überprüft ob die "games" array gleich null ist, also no
 }
 ```
 Der '@code' block in einer Razor Komponente erlaubt es dir C# Code in einer Komponente einzubetten, ähnlich wie der Raum in einer React Komponente oberhalb des 'return' Blocks.
+Zunächst wird eine private Variable (man kann nur in diesem Block auf diese Variable zugreifen) namens 'games' mit dem Typ 'Game[]?' deklariert. Das bedeutet diese array kann nur objects enthalten die denen in der 'Game' class entsprechen
