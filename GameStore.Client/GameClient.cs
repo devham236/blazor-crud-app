@@ -32,5 +32,11 @@ namespace GameStore.Client
         public static Game[] GetGames(){
             return games.ToArray();
         }
+
+        public static void AddGame(Game game)
+        {
+            game.Id = games.Max(game => game.Id) + 1;
+            games.Add(game);
+        }
     }
 }
