@@ -76,7 +76,7 @@ namespace GameStore.Client.Models
     }
 }
 ```
-Die 'Game' class definiert die Struktur eines 'Game' objects, diese object hat eine Id, Name, Genre, Price und DateTime property
+Die 'Game' class definiert die Struktur eines 'Game' objects, dieses object hat eine Id, Name, Genre, Price und DateTime property
 
 
 # GameClient Class
