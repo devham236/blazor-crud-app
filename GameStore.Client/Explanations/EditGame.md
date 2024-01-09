@@ -44,3 +44,40 @@ Die 'EditGame' Komponente enthält eine 'EditForm' Komponente, ist eine eingebau
 Das 'Model=@game' bedeutet das die inputs in dem Form Element mit der 'game' variable verbunden ist, die 'game' Variable hat die 'Game' class als Typ.
 In dem Form-Element sind mehrere divs mit label und input zu sehen. Jedes input hat eine '@bind-value' property die mit der entsprechenden property vom 'game' object verbunden ist. Ähnlich wie ein onChange handler bei einer React Komponente die dann den entsprechenden state verändert.
 Zuletzt sind noch zwei button enthalten, einer ist der 'submit' button, der den onSubmit Handler auslöst wenn dieser geklickt wird, und der andere ist der 'save' button der die 'Cancel' function auslöst, wenn dieser geklickt wird.
+
+
+```bash
+@code {
+    private Game game = new()
+        {
+            Name = string.Empty,
+            Genre = string.Empty,
+            ReleaseDate = DateTime.UtcNow
+        };
+
+    private void HandleSubmit()
+    {
+        GameClient.AddGame(game);
+        NavigationManager.NavigateTo("/");
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
+```
+Zunächst wird ein object mit der 'Game' class als typ und ein paar leeren properties initialisiert. Diese properties ändern ihren wert wenn in die entsprechenden inputs etwas eingegeben wird bzw. diese verändert werden.
+Die 'HandleSubmit' function wird ausgelöst wenn der 'submit' button im Form-Element geklickt wird.
+Darin wird die 'AddGame()' function in der 'GameClient' claass mit der zuvor erstellten 'game' variable, also dem object bzw. den properties des objects das mit den inputs verbunden ist, als argument ausgelöst.
+Danach wird der User zum root path ("/") mithilfe der injection des NavigationManager navigiert.
+Die 'Cancel' function wird ausgelöst wenn der 'cancel' button geklickt wird, dadurch wird der User zum root path ("/") navigiert
+
+
+```bash
+public static void AddGame(Game game)
+{
+    game.Id = games.Max(game => game.Id) + 1;
+    games.Add(game);
+}
+```
