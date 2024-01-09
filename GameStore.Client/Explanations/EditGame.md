@@ -81,4 +81,6 @@ public static void AddGame(Game game)
     games.Add(game);
 }
 ```
-Die 'AddGame' function in der 'GameClient' class
+Die 'AddGame' function in der 'GameClient' class hat keinen Rückgabewert und hat 'game' mit dem typ 'Game' als Parameter.
+Zunächst wird eine Id an den 'game' Parameter angeheftet bevor dieses der 'games' array bzw. list hinzugefügt wird. Die Id hat den höchsten Wert einer Id property eines einzelnen game in der 'games' array plus 1. Damit hat jedes neu hinzugefügte Spiel immer die Id des vorherigen letzten hinzugefügten spiel plus 1.
+Danach wird mithilfe der '.Add()' method der game Parameter der 'games' list hinzugefügt.
