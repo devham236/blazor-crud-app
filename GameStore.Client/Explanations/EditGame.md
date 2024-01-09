@@ -81,3 +81,4 @@ public static void AddGame(Game game)
     games.Add(game);
 }
 ```
+Die 'AddGame' function in der 'GameClient' class
