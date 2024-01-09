@@ -42,4 +42,4 @@ Der erste Ausdruck bezeichnet das gewünschte Object bzw. das gewünschte 'packa
 ```
 Die 'EditGame' Komponente enthält eine 'EditForm' Komponente, ist eine eingebaute Blazor Komponente. Die Form Komponente hat einen 'onSubmit' handler die eine 'HandleSubmit' function auslöst.
 Das 'Model=@game' bedeutet das die inputs in dem Form Element mit der 'game' variable verbunden ist, die 'game' Variable hat die 'Game' class als Typ.
-In dem Form-Element
+In dem Form-Element sind mehrere divs mit label und input zu sehen. Jedes input hat eine '@bind-value' property die mit der entsprechenden property vom 'game' object verbunden ist.
