@@ -1,4 +1,5 @@
 ﻿@page "/game"
+@page "/game/{id:int}"
 @using Models
 @inject NavigationManager NavigationManager
 
@@ -42,21 +43,51 @@
 </div>
 
 @code {
-    private Game game = new()
+    [Parameter]
+    public int? Id { get; set; }
+    
+    private Game? game;
+
+        protected override void OnParametersSet()
         {
-            Name = string.Empty,
-            Genre = string.Empty,
-            ReleaseDate = DateTime.UtcNow
-        };
+            if(Id is not null)
+            {
+                Game foundGame = GameClient.GetGame(Id.Value);
+                game = new()
+                {
+                    Id = foundGame.Id,
+                    Name = foundGame.Name,
+                    Genre = foundGame.Genre,
+                    Price = foundGame.Price,
+                    ReleaseDate = foundGame.ReleaseDate,
+                };
+            }
+            else{
+                game = new()
+                {
+                    Name = string.Empty,
+                    Genre = string.Empty,
+                    ReleaseDate = DateTime.UtcNow
+                };
+            }
+        }
 
-    private void HandleSubmit()
-    {
-        GameClient.AddGame(game);
-        NavigationManager.NavigateTo("/");
-    }
+        private void HandleSubmit()
+        {
+            if(game!.Id == 0)
+            {
+                GameClient.AddGame(game);
+            }
+            else
+            {
+                GameClient.UpdateGame(game);
+            }
 
-    private void Cancel()
-    {
-        NavigationManager.NavigateTo("/");
-    }
+            NavigationManager.NavigateTo("/");
+        }
+
+        private void Cancel()
+        {
+            NavigationManager.NavigateTo("/");
+        }
 }
