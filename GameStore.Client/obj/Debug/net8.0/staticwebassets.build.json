@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "drqsmruGj4i+KG6RYkh3ocZbXeK/rjuwHMehNMCgkTM=",
+  "Hash": "wqWcwf+f1UGQVuNfpN+k7q4Bb/pp2zGSBMzVGrWghFU=",
   "Source": "GameStore.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.0.kzbo5gul6t.js",
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.1.kumra6iju6.js",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.0.kzbo5gul6t.js",
+      "RelativePath": "_framework/dotnet.native.8.0.1.kumra6iju6.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.0.iu031mxyza.js",
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.1.wnmrwpu04x.js",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.0.iu031mxyza.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.1.wnmrwpu04x.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GameStore.Client.pdb",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.1\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4444,6 +4444,25 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.wasm"
     },
     {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\3yh4h3ddds.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\4bw5mmhhsa.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -4995,25 +5014,6 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.AccessControl.wasm"
     },
     {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\8k74fwla4o.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
-    },
-    {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\8mnfp200i8.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -5299,6 +5299,25 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ValueTuple.wasm"
     },
     {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\c5s35tfgm8.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\cd676o5smu.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -5506,6 +5525,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\e8figfdbcs.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\ec6wilp4kw.gz",
@@ -5717,26 +5755,7 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.IsolatedStorage.wasm"
     },
     {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\gquseqw4q6.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\gzrwqeaqxi.gz",
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\hfpgjguly9.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
@@ -5924,25 +5943,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\iu031mxyza.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.0.iu031mxyza.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.0.iu031mxyza.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.0.iu031mxyza.js"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\ixq3um0s17.gz",
@@ -6135,25 +6135,6 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipelines.wasm"
     },
     {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\kd3i7d0mts.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\kj97apofat.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -6192,23 +6173,23 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.wasm"
     },
     {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\kzbo5gul6t.gz",
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\kumra6iju6.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.0.kzbo5gul6t.js.gz",
+      "RelativePath": "_framework/dotnet.native.8.0.1.kumra6iju6.js.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.0.kzbo5gul6t.js",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.1.kumra6iju6.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.0.kzbo5gul6t.js"
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.1.kumra6iju6.js"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\kzjjf2lpb6.gz",
@@ -6629,6 +6610,25 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.wasm"
     },
     {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\q4xhadzsvj.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+    },
+    {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\q5qg4obesx.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -6741,6 +6741,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\rpminalzzz.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\s1blucvp7f.gz",
@@ -6895,6 +6914,25 @@
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm"
     },
     {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\tesqc7cyjy.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
+    },
+    {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\tfarwetqf1.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -6969,25 +7007,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\u00xn4k1rl.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\u4sh3331ec.gz",
@@ -7121,25 +7140,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Handles.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\vl5sgcccr1.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\vqd3qsdf0e.gz",
@@ -7311,6 +7311,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Timer.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\wnmrwpu04x.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.1.wnmrwpu04x.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.1.wnmrwpu04x.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.1.wnmrwpu04x.js"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\wo0y63b9j2.gz",
@@ -7501,25 +7520,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js"
-    },
-    {
-      "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\y2qcuxv753.gz",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Mirza\\Desktop\\Main Projects\\blazor-crud-app\\GameStore.Client\\obj\\Debug\\net8.0\\compressed\\yabtivpruf.gz",
