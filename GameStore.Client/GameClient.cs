@@ -52,5 +52,11 @@ namespace GameStore.Client
             existingGame.Price = updatedGame.Price;
             existingGame.ReleaseDate = updatedGame.ReleaseDate;
         }
+
+        public static void DeleteGame(int id)
+        {
+            Game game = GetGame(id);
+            games.Remove(game);
+        }
     }
 }
