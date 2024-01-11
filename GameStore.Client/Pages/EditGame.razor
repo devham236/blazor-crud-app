@@ -59,30 +59,31 @@ else
 
     private string title = string.Empty;
 
-        protected override void OnParametersSet()
+    protected override void OnParametersSet()
+    {
+        if(Id is not null)
         {
-            if(Id is not null)
+            Game foundGame = GameClient.GetGame(Id.Value);
+            game = new()
             {
-                Game foundGame = GameClient.GetGame(Id.Value);
-                game = new()
-                {
-                    Id = foundGame.Id,
-                    Name = foundGame.Name,
-                    Genre = foundGame.Genre,
-                    Price = foundGame.Price,
-                    ReleaseDate = foundGame.ReleaseDate,
-                };
+                Id = foundGame.Id,
+                Name = foundGame.Name,
+                Genre = foundGame.Genre,
+                Price = foundGame.Price,
+                ReleaseDate = foundGame.ReleaseDate,
+            };
 
-                title = $"Edit {game.Name}";
-            }
-            else{
-                game = new()
-                {
-                    Name = string.Empty,
-                    Genre = string.Empty,
-                    ReleaseDate = DateTime.UtcNow
-                };
-                title = "New Game";
+            title = $"Edit {game.Name}";
+        }
+        else
+        {
+            game = new()
+            {
+                Name = string.Empty,
+                Genre = string.Empty,
+                ReleaseDate = DateTime.UtcNow
+            };
+            title = "New Game";
             }
         }
 
