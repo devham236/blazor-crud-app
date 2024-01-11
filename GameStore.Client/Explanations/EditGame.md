@@ -101,3 +101,55 @@ private Game? game;
 private string title = string.Empty;
 ```
 Zunächst wird eine 'Id', eine 'game' und eine 'title' Variable initialisiert.
+'[Parameter]' über der 'Id' bedeutet das die Id ein Parameter ist, der außerhalb von der EditGame Komponente einstellbar ist.
+Die 'title' variable wird später den Namen des Spiels anzeigen, daher ist er zunächst leer.
+
+```csharp
+protected override void OnParametersSet()
+    {
+        if(Id is not null)
+        {
+            Game foundGame = GameClient.GetGame(Id.Value);
+            game = new()
+            {
+                Id = foundGame.Id,
+                Name = foundGame.Name,
+                Genre = foundGame.Genre,
+                Price = foundGame.Price,
+                ReleaseDate = foundGame.ReleaseDate,
+            };
+
+            title = $"Edit {game.Name}";
+        }
+        else
+        {
+            game = new()
+            {
+                Name = string.Empty,
+                Genre = string.Empty,
+                ReleaseDate = DateTime.UtcNow
+            };
+            title = "New Game";
+        }
+    }
+```
+Wenn man auf den Edit button auf eines der Spiele klickt, wird die 'EditGame()' function mit der Id des Spiels als Argument, in der 'Home' Komponente ausgelöst:
+
+```csharp
+private void EditGame(int id)
+{
+    NavigationManager.NavigateTo($"/game/{id}");
+}
+```
+Der User wird also zur Route '/game/{id des spiels}' geschickt, also wird die 'EditGame' Komponente angezeigt.
+Der Parameter 'Id' ist somit nicht gleich null, also wird der if block ausgeführt.
+Darin wird mithilfe der 'GetGame()' function in der 'GameClient' class das passende Spiel gefunden:
+
+```csharp
+public static Game GetGame(int id)
+{
+    return games.Find(game => game.Id == id) ?? throw new Exception("Could not find game!");
+}
+```
+In der 'GetGame()' function wird einfach über die 'games' Liste iteriert um das Speil mit der passenden Id zu finden, wenn diese Methode ein falsy value wiedergibt wird eine neue Exception/Error geworfen.
+Der Rückgabewert wird in der 'foundGame' Variable gespeichert und dann ein 'game' object mit den properties der 'foundGame' Variable.
