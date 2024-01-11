@@ -157,3 +157,20 @@ Die 'title' Variable wird dann mit der 'name' property von der zuvor erstellten 
 Wenn keine 'Id' vorhanden ist bzw. wenn die 'Id' gleich null ist wird der else block ausgeführt.
 Das bedeutet der 'NewGame' button wurde geklickt und der User möchte ein neues Spiel hinzufügen.
 Hier wird also die 'game' Variable mit den default properties initialisiert un die 'title' Variable wird mit 'New Game' gleichgesetzt.
+
+```csharp
+private void HandleSubmit()
+{
+    if(game!.Id == 0)
+    {
+        GameClient.AddGame(game);
+    }
+    else
+    {
+        GameClient.UpdateGame(game);
+    }
+
+    NavigationManager.NavigateTo("/");
+}
+```
+Die 'HandleSubmit()' function wurde etwas geändert, wenn die 'Id' gleich null ist, also wenn ein neues Spiel erstellt wurde, wird die 'AddGame' function, mit der 'game' variable als argument, in der 'GameClient' class ausegführt.
