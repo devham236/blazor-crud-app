@@ -186,3 +186,6 @@ public static void UpdateGame(Game updatedGame)
     existingGame.ReleaseDate = updatedGame.ReleaseDate;
 }
 ```
+Das zu bearbeitende Spiel, also 'updatedGame', wird als argument für die 'GetGame' function in der 'GameClient' class benutzt.
+GetGame gibt uns das passende Spiel wieder und der Wert wird in der Variable 'existingGame'.
+Dann werden einfach die properties vom passenden Spiel mit den properties vom parameter 'updatedGame' gleichgesetzt, sodass die Details des Spiels (Name, Price, Genre...) geupdated werden.
