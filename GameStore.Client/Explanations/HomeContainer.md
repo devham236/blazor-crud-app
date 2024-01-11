@@ -43,7 +43,7 @@ else
 
 In der Komponente wird überprüft ob die "games" array gleich null ist, also noch nicht vorhanden ist. Wenn "games" nicht vorhanden ist, wird ein p-tag mit einem Loading text angezeigt, wenn "games" vorhanden ist, wird eine Tabelle mit ein paar table heads und ein table body angezeigt in der durch die "games" array iteriert wird und für jedes "game" eine row wiedergegeben wird.
 
-```bash
+```csharp
 @code {
     private Game[]? games;
 
@@ -63,7 +63,7 @@ Wie bei einer React Komponente die ein State für eine leere array zunächst ini
 
 # Game Class
 
-```bash
+```csharp
 namespace GameStore.Client.Models
 {
     public class Game
@@ -81,7 +81,7 @@ Die 'Game' class definiert die Struktur eines 'Game' objects, dieses object hat 
 
 # GameClient Class
 
-```bash
+```csharp
 using GameStore.Client.Models;
 
 namespace GameStore.Client

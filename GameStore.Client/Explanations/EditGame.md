@@ -1,6 +1,6 @@
 # EditGame Component
 
-```bash
+```csharp
 @inject NavigationManager NavigationManager
 ```
 
@@ -47,7 +47,7 @@ Das 'Model=@game' bedeutet das die inputs in dem Form Element mit der 'game' var
 In dem Form-Element sind mehrere divs mit label und input zu sehen. Jedes input hat eine '@bind-value' property die mit der entsprechenden property vom 'game' object verbunden ist. Ähnlich wie ein onChange handler bei einer React Komponente die dann den entsprechenden state verändert.
 Zuletzt sind noch zwei button enthalten, einer ist der 'submit' button, der den onSubmit Handler auslöst wenn dieser geklickt wird, und der andere ist der 'save' button der die 'Cancel' function auslöst, wenn dieser geklickt wird.
 
-```bash
+```csharp
 @code {
     private Game game = new()
         {
@@ -75,7 +75,7 @@ Darin wird die 'AddGame()' function in der 'GameClient' claass mit der zuvor ers
 Danach wird der User zum root path ("/") mithilfe der injection des NavigationManager navigiert.
 Die 'Cancel' function wird ausgelöst wenn der 'cancel' button geklickt wird, dadurch wird der User zum root path ("/") navigiert
 
-```bash
+```csharp
 public static void AddGame(Game game)
 {
     game.Id = games.Max(game => game.Id) + 1;
@@ -90,4 +90,13 @@ Danach wird mithilfe der '.Add()' method der game Parameter der 'games' list hin
 
 # Edit existing Game functionality
 Zurzeit wird die 'EditGame' Komponente aufgerufen, wenn man auf den 'New Game' button in der 'Home' Komponente klickt.
-Mit folgenden Functions und Ergänzungen zu der 'EditGame' Komponente, wird das bearbeiten von bereits in der Liste vorhandenen Games ermöglicht. Im Grunde checkt die Komponente zunächst ob eine 'Id' als Parameter vorliegt bzw. gleich null ist oder nicht, abhängig davon werden unterschiedliche HTML Elemente angezeigt .
+Mit folgenden Functions und Ergänzungen in der 'EditGame' Komponente, wird das bearbeiten von bereits in der Liste vorhandenen Games ermöglicht. Im Grunde checkt die Komponente zunächst ob eine 'Id' als Parameter vorliegt bzw. gleich null ist oder nicht, abhängig davon werden unterschiedliche HTML Elemente angezeigt und unterschiedliche code blocks ausgeführt.
+
+```csharp
+[Parameter]
+public int? Id { get; set; }
+    
+private Game? game;
+
+private string title = string.Empty;
+```
