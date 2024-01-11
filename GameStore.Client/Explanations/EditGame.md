@@ -100,3 +100,4 @@ private Game? game;
 
 private string title = string.Empty;
 ```
+Zunächst wird eine 'Id', eine 'game' und eine 'title' Variable initialisiert.
