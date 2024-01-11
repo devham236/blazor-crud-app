@@ -86,3 +86,8 @@ public static void AddGame(Game game)
 Die 'AddGame' function in der 'GameClient' class hat keinen Rückgabewert und hat 'game' mit dem typ 'Game' als Parameter.
 Zunächst wird eine Id an den 'game' Parameter angeheftet bevor dieses der 'games' array bzw. list hinzugefügt wird. Die Id hat den höchsten Wert einer Id property eines einzelnen game in der 'games' array plus 1. Damit hat jedes neu hinzugefügte Spiel immer die Id des vorherigen letzten hinzugefügten spiel plus 1.
 Danach wird mithilfe der '.Add()' method der game Parameter der 'games' list hinzugefügt.
+
+
+# Edit existing Game functionality
+Zurzeit wird die 'EditGame' Komponente aufgerufen, wenn man auf den 'New Game' button in der 'Home' Komponente klickt.
+Mit folgenden Functions und Ergänzungen zu der 'EditGame' Komponente, wird das bearbeiten von bereits in der Liste vorhandenen Games ermöglicht. Im Grunde checkt die Komponente zunächst ob eine 'Id' als Parameter vorliegt bzw. gleich null ist oder nicht, abhängig davon werden unterschiedliche HTML Elemente angezeigt .
