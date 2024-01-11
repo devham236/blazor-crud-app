@@ -173,4 +173,16 @@ private void HandleSubmit()
     NavigationManager.NavigateTo("/");
 }
 ```
-Die 'HandleSubmit()' function wurde etwas geändert, wenn die 'Id' gleich null ist, also wenn ein neues Spiel erstellt wurde, wird die 'AddGame' function, mit der 'game' variable als argument, in der 'GameClient' class ausegführt.
+Die 'HandleSubmit()' function wurde etwas geändert, wenn die 'Id' gleich null ist, also wenn ein neues Spiel erstellt wurde, wird die 'AddGame' function, mit der 'game' variable als argument, in der 'GameClient' class ausegführt. Die 'AddGame' function ist gleich geblieben.
+Wenn die 'Id' nicht gleich null ist, wird die 'UpdateGame()' function mit der 'game' variable als argument ausgeführt.
+
+```csharp
+public static void UpdateGame(Game updatedGame)
+{
+    Game existingGame = GetGame(updatedGame.Id);
+    existingGame.Name = updatedGame.Name;
+    existingGame.Genre = updatedGame.Genre;
+    existingGame.Price = updatedGame.Price;
+    existingGame.ReleaseDate = updatedGame.ReleaseDate;
+}
+```
