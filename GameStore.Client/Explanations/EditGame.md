@@ -152,4 +152,8 @@ public static Game GetGame(int id)
 }
 ```
 In der 'GetGame()' function wird einfach über die 'games' Liste iteriert um das Speil mit der passenden Id zu finden, wenn diese Methode ein falsy value wiedergibt wird eine neue Exception/Error geworfen.
-Der Rückgabewert wird in der 'foundGame' Variable gespeichert und dann ein 'game' object mit den properties der 'foundGame' Variable.
+Der Rückgabewert wird in der 'foundGame' Variable gespeichert und dann ein 'game' object mit den properties der 'foundGame' Variable initialisiert.
+Die 'title' Variable wird dann mit der 'name' property von der zuvor erstellten 'game' Variable gleichgesetzt.
+Wenn keine 'Id' vorhanden ist bzw. wenn die 'Id' gleich null ist wird der else block ausgeführt.
+Das bedeutet der 'NewGame' button wurde geklickt und der User möchte ein neues Spiel hinzufügen.
+Hier wird also die 'game' Variable mit den default properties initialisiert un die 'title' Variable wird mit 'New Game' gleichgesetzt.
