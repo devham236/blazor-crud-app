@@ -72,6 +72,7 @@ private void OnDeleteModalClose(bool accepted)
     }
 ```
 In der 'Home' Komponente wird mit einem if statement überprüft ob der boolean true ist oder nicht. Ist der boolean 'true' wird die 'DeleteGame' function in der 'GameClient' class ausgeführt, mit der 'Id' von 'currentGame' als argument.
+Danach wird der Rückgabewert von der 'GetGames' function in der 'GameClient' class mit der 'games' Variable gleichgesetzt.
 
 ```csharp
 public static void DeleteGame(int id)
@@ -80,4 +81,4 @@ public static void DeleteGame(int id)
             games.Remove(game);
         }
 ```
-In der 'DeleteGame' funct
+In der 'DeleteGame' function wird das zu der id passende Spiel erstmal gefunden und dann von der 'games' List entfernt.
