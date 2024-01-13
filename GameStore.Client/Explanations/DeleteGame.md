@@ -58,4 +58,5 @@ Außerdem sind zwei buttons enthalten, einer für die Bestätigung des Löschvor
 ```
 Die 'Game' Variable repräsentiert das zu löschende Spiel, diese gewinnen wir durch einen Parameter.
 'OnClose' ist ein 'EventCallback', diese methode ist mit der 'OnDeleteModalClose' methode in der 'Home' Komponente 'verbunden' und hat ein boolean als Parameter.
+Klickt der User jetzt auf den 'Confirm' button ist der boolean Wert 'true' und beim 'Cancel' button ist der boolean Wert 'false'
 
