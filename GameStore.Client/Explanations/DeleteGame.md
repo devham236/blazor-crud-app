@@ -29,3 +29,30 @@ In der Komponente wird ein Modal gerendert:
 ```
 Der Title ist dynamisch und zeigt immer den Namen des Spiels an welches gelöscht werden soll.
 Außerdem sind zwei buttons enthalten, einer für die Bestätigung des Löschvorgangs und einer fürs abbrechen.
+
+```csharp
+@code {
+    [Parameter]
+    public Game? Game {get; set;}
+
+    [Parameter]
+    public EventCallback<bool> OnClose {get; set;}
+
+    private string title = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        title = $"Delete {Game?.Name}?";
+    }
+
+    private void Confirm()
+    {
+        OnClose.InvokeAsync(true);
+    }
+
+    private void Cancel()
+    {
+        OnClose.InvokeAsync(false);
+    }
+}
+```
