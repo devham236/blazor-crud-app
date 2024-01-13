@@ -27,3 +27,5 @@ In der Komponente wird ein Modal gerendert:
   </div>
 </div>
 ```
+Der Title ist dynamisch und zeigt immer den Namen des Spiels an welches gelöscht werden soll.
+Außerdem sind zwei buttons enthalten, einer für die Bestätigung des Löschvorgangs und einer fürs abbrechen.
