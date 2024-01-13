@@ -60,3 +60,24 @@ Die 'Game' Variable repräsentiert das zu löschende Spiel, diese gewinnen wir d
 'OnClose' ist ein 'EventCallback', diese methode ist mit der 'OnDeleteModalClose' methode in der 'Home' Komponente 'verbunden' und hat ein boolean als Parameter.
 Klickt der User jetzt auf den 'Confirm' button ist der boolean Wert 'true' und beim 'Cancel' button ist der boolean Wert 'false'
 
+
+```csharp
+private void OnDeleteModalClose(bool accepted)
+    {
+        if(accepted)
+        {
+            GameClient.DeleteGame(currentGame!.Id);
+            games = GameClient.GetGames();
+        }
+    }
+```
+In der 'Home' Komponente wird mit einem if statement überprüft ob der boolean true ist oder nicht. Ist der boolean 'true' wird die 'DeleteGame' function in der 'GameClient' class ausgeführt, mit der 'Id' von 'currentGame' als argument.
+
+```csharp
+public static void DeleteGame(int id)
+        {
+            Game game = GetGame(id);
+            games.Remove(game);
+        }
+```
+In der 'DeleteGame' funct
